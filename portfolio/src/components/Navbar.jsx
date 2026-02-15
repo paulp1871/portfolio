@@ -50,7 +50,7 @@ export default function Navbar() {
       <div className="container navbar-inner">
         <a className="navbar-logo" href="#hero">
           {profile.firstName}
-          <span>.dev</span>
+          <span> {profile.lastName}</span>
         </a>
 
         <button
