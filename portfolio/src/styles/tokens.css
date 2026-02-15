@@ -1,0 +1,44 @@
+/* ─── Design Tokens ─── */
+:root {
+  /* Backgrounds */
+  --bg:       #0b0e17;
+  --bg2:      #0f1320;
+  --surface:  #151a2e;
+  --surface2: #1c2240;
+
+  /* Text */
+  --text:   #e0e4f0;
+  --muted:  #8892b0;
+
+  /* Accents */
+  --accent:  #00f0ff;   /* neon cyan  */
+  --accent2: #f542d6;   /* neon magenta */
+
+  /* Borders / Shadows */
+  --border: rgba(0, 240, 255, 0.12);
+  --shadow: rgba(0, 0, 0, 0.5);
+  --glow:   rgba(0, 240, 255, 0.15);
+
+  /* Shape */
+  --radius:    8px;
+  --radius-lg: 14px;
+
+  /* Layout */
+  --container: 1100px;
+
+  /* Spacing scale */
+  --space-xs:  0.25rem;
+  --space-sm:  0.5rem;
+  --space-md:  1rem;
+  --space-lg:  2rem;
+  --space-xl:  3rem;
+  --space-2xl: 5rem;
+
+  /* Typography */
+  --font-sans:  'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --font-mono:  'Fira Code', 'Cascadia Code', 'Consolas', monospace;
+  --line-height: 1.7;
+
+  /* Transition */
+  --transition: 0.25s ease;
+}
