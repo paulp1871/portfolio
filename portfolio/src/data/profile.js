@@ -7,8 +7,8 @@ export const profile = {
   email: 'paulpham1871@gmail.com',
 
   about: [
-    "I’m Paul Pham, a Computer Science student at the University of Calgary. I build web apps and data tools, and I like projects that turn messy real-world data into something you can actually explore.",
-    "Lately I’ve been working on an interactive mapping project and I've begin learning more about full-stack web development and artifical intelligence.",
+    "Hello! I’m Paul Pham, a Computer Science student at the University of Calgary. I am an aspiring developer, and I love projects that turn messy real-world data into something you can actually explore!",
+    "Lately I’ve been working on an interactive mapping project and I am currently learning more about full-stack web development and artifical intelligence.",
   ],
 
   facts: [
@@ -42,11 +42,11 @@ export const profile = {
     },
     {
       category: 'Backend',
-      items: ['Node.js', 'Express', 'PostgreSQL', 'MongoDB'],
+      items: ['Node.js', 'Express', 'Django', 'PostgreSQL', 'MongoDB'],
     },
     {
       category: 'Tools',
-      items: ['Git', 'Linux', 'Postman'],
+      items: ['Git', 'Linux', 'Postman', 'Vite'],
     },
   ],
 
@@ -54,8 +54,8 @@ export const profile = {
     {
       title: 'PLARF Missile Coverage Visualizer',
       description:
-        'A real-time monitoring dashboard for cloud infrastructure with interactive charts, alerting, and team collaboration features.',
-      tags: ['Python', 'Folium', 'Leaflet.js'],
+        'Interactive web app that maps 38 missile sites from the People\'s Liberation Army Rocket Force and visualizes the range of 16 missile types from open-source data.',
+      tags: ['Python', 'Folium', 'Leaflet.js', 'Node.js', 'Express'],
       links: {
         repo: 'https://github.com/paulp1871/plarf-missile-coverage-visualizer',
         demo: 'https://plarf-missile-coverage-visualizer.onrender.com/',
@@ -71,7 +71,7 @@ export const profile = {
       organization: 'University of Calgary',
       date: '2023 – Present',
       description:
-        'Focused on software engineering, data structures & algorithms, and human-computer interaction.',
+        'Focused on software engineering, data structures & algorithms, AI/machine learning, and human-computer interaction.',
     },
   ],
 
