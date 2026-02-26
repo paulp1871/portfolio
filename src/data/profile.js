@@ -7,15 +7,14 @@ export const profile = {
   email: 'paulpham1871@gmail.com',
 
   about: [
-    "Hello! I’m Paul Pham, a Computer Science student at the University of Calgary. I am an aspiring developer, and I love projects that turn messy real-world data into something you can actually explore!",
-    "Lately I’ve been working on an interactive mapping project and I am currently learning more about full-stack web development and artifical intelligence.",
+    "Hello! I'm Paul Pham, a Computer Science student at the University of Calgary. I am an aspiring developer, and I love projects that turn messy real-world data into something you can actually explore!",
+    "Lately, I've worked on an interactive mapping project, and I am currently seeking internships and opportunities for Summer 2026.",
   ],
 
   facts: [
-    { label: 'Location', value: 'Calgary, AB' },
-    { label: 'School', value: 'University of Calgary' },
     { label: 'Degree', value: 'B.S. Computer Science' },
-    { label: 'Focus', value: 'Web & AI' },
+    { label: 'School', value: 'University of Calgary' },
+    { label: 'Location', value: 'Calgary, AB' },
   ],
 
   socialLinks: [
@@ -34,19 +33,19 @@ export const profile = {
   skills: [
     {
       category: 'Languages',
-      items: ['JavaScript', 'TypeScript', 'Python', 'Java', 'SQL', 'HTML/CSS'],
+      items: ['JavaScript', 'TypeScript', 'Python', 'Java', 'C', 'HTML/CSS'],
     },
     {
-      category: 'Frontend',
-      items: ['React', 'Next.js', 'Vue'],
+      category: 'Frameworks/Libraries',
+      items: ['React', 'Node', 'Express', 'JavaFX', 'pandas', 'scikit-learn', 'NumPy'],
     },
     {
-      category: 'Backend',
-      items: ['Node.js', 'Express', 'Django', 'PostgreSQL', 'MongoDB'],
+      category: 'Databases',
+      items: ['SQL', 'MongoDB'],
     },
     {
       category: 'Tools',
-      items: ['Git', 'Linux', 'Postman', 'Vite'],
+      items: ['Git', 'Linux', 'Postman', 'Render'],
     },
   ],
 
@@ -58,7 +57,7 @@ export const profile = {
       tags: ['Python', 'Folium', 'Leaflet.js', 'Node.js', 'Express'],
       links: {
         repo: 'https://github.com/paulp1871/plarf-missile-coverage-visualizer',
-        demo: 'https://plarf-missile-coverage-visualizer.onrender.com/',
+        demo: 'https://plarf-missile-coverage-visualizer-foto.onrender.com/',
       },
       featured: true,
     },
@@ -71,7 +70,7 @@ export const profile = {
       organization: 'University of Calgary',
       date: '2023 – Present',
       description:
-        'Focused on software engineering, data structures & algorithms, AI/machine learning, and human-computer interaction.',
+        'Relevant Coursework: Data Structures & Algorithms, Software Engineering, Computer Architecture, Object Oriented Programming, Python Progamming',
     },
   ],
 

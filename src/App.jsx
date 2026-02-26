@@ -12,8 +12,8 @@ function App() {
       <Hero />
       <About />
       <Skills />
-      <Projects />
       <Timeline />
+      <Projects />
       <Contact />
     </Layout>
   );
