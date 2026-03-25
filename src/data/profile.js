@@ -37,7 +37,7 @@ export const profile = {
     },
     {
       category: 'Frameworks/Libraries',
-      items: ['React', 'Node', 'Express', 'JavaFX', 'pandas', 'scikit-learn', 'NumPy'],
+      items: ['React', 'Node', 'Express', 'JavaFX', 'Pandas', 'SciKit-Learn', 'NumPy'],
     },
     {
       category: 'Databases',
@@ -65,13 +65,21 @@ export const profile = {
 
   experience: [
     {
+      type: 'experience',
+      title: 'Software Developer Intern',
+      organization: 'Environment & Climate Change Canada',
+      date: 'Incoming - May 2026',
+      description:
+        'Developing a web-based interactive mapping tool to process and display weather and geospatial data for forecasting and hazard analysis.',
+    },
+    {
       type: 'education',
       title: 'B.S. Computer Science',
       organization: 'University of Calgary',
-      date: '2023 – Present',
+      date: 'September 2023 – Present',
       description:
         'Relevant Coursework: Data Structures & Algorithms, Software Engineering, Computer Architecture, Object Oriented Programming, Python Progamming',
-    },
+    }
   ],
 
   footerNote: 'Designed & built with React + Vite',
