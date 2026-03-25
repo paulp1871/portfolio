@@ -8,11 +8,11 @@ export const profile = {
 
   about: [
     "Hello! I'm Paul Pham, a Computer Science student at the University of Calgary. I am an aspiring developer, and I love projects that turn messy real-world data into something you can actually explore!",
-    "Lately, I've worked on an interactive mapping project, and I am currently seeking internships and opportunities for Summer 2026.",
+    "Lately, I've worked on an interactive mapping project, and I am an incoming Software Developer Intern at Environment and Climate Change Canada for May 2026.",
   ],
 
   facts: [
-    { label: 'Degree', value: 'B.S. Computer Science' },
+    { label: 'Degree', value: 'B.Sc. Computer Science' },
     { label: 'School', value: 'University of Calgary' },
     { label: 'Location', value: 'Calgary, AB' },
   ],
@@ -71,15 +71,18 @@ export const profile = {
       date: 'Incoming - May 2026',
       description:
         'Developing a web-based interactive mapping tool to process and display weather and geospatial data for forecasting and hazard analysis.',
-    },
+    }
+  ],
+
+  education: [
     {
       type: 'education',
-      title: 'B.S. Computer Science',
+      title: 'Bachelor of Science, Computer Science',
       organization: 'University of Calgary',
       date: 'September 2023 – Present',
       description:
         'Relevant Coursework: Data Structures & Algorithms, Software Engineering, Computer Architecture, Object Oriented Programming, Python Progamming',
-    }
+    },
   ],
 
   footerNote: 'Designed & built with React + Vite',
